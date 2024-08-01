@@ -6,7 +6,7 @@ By [Dito Wicaksana P.](https://github.com/ditoowp) | Data Resource: [Kaggle](htt
 
 ---
 
-## Introduction
+## **Introduction**
 <p style="text-align: justify;">
 Pasar perumahan di California dikenal dengan volatilitas dan harga tinggi, dipengaruhi oleh faktor seperti pertumbuhan ekonomi, urbanisasi, dan tren demografis. Memahami pola-pola ini dapat memberikan wawasan tentang faktor-faktor yang mendorong perubahan harga, membantu para pemangku kepentingan seperti pembuat kebijakan, investor, dan calon pemilik rumah untuk membuat keputusan yang tepat.
 </p>
@@ -16,7 +16,7 @@ Nilai median disini yang dicari karena ingin melihat nilai tengah dari seluruh h
 
 ---
 
-## Objective
+## **Objective**
 <p style="text-align: justify;">
 Tujuan dari proyek ini adalah mengembangkan model prediksi yang dapat secara akurat memperkirakan harga rumah median berdasarkan fitur yang ada. Dengan memanfaatkan teknik pembelajaran mesin, model ini bertujuan untuk:
 </p>
@@ -31,15 +31,15 @@ Tujuan utamanya adalah menawarkan <em>tools<em> yang dapat mendukung analisis <e
 
 ---
 
-## Conclusion
+## **Conclusion**
 
-### Exploratory Data Analysis (EDA)
+### **Exploratory Data Analysis (EDA)**
 
 Pilihan rumah yang ada cukup bervariasi, mulai dari usia rumahnya ada yang masih tergolong baru dan lama walaupun rata-rata rumah berusia 30-40 tahun. Mayoritas rumah yang dijual sepertinya rumah yang kecil, diketahui dari jumlah ruangan dan jumlah kamar tidurnya yang tidak terlalu banyak pada suatu blok. Selain itu, populasi yang banyak pada suatu blok maka akan mempengaruhi juga nilai median rumah. Ini terjadi dikarenakan tingkat populasi yang tinggi membuat *demand* yang tinggi terhadap *housing properties* dan apabila *demand*-nya tinggi maka akan semakin terbatas barang yang di-*demand* membuat harga menjadi naik (*). *Landscape* rumah juga mempengaruhi harga rumah, rumah yang termasuk dekat dengan pantai cenderung akan lebih mahal dibandingkan dengan harga rumah yang berada di-*inland*. 
 
 (*) Reference : [UNECE](https://unece.org/fileadmin/DAM/hlm/archive/Key%20note%20population%20and%20housing.pdf)
 
-### Model Analysis
+### **Model Analysis**
 
 **Support Vector Regressor (SVR)**
 
@@ -61,7 +61,7 @@ Performa yang cukup baik pada *train* dan *test*. **R2 Score** juga baik yang me
 
 Dari kelima model, model ini merupakan yang paling baik **R2 Score**-nya. Karena model ini merupakan model yang terbaik, maka dilakukan *hyperparameter tuning* untuk meningkatkan lagi **R2 Score**-nya. Setelah dilakukan *hyperparameter tuning* **R2 Score** naik walaupun tidak terlalu signifikan.
 
-### Best Model Analysis
+### **Best Model Analysis**
 
 Dalam kasus prediksi harga median rumah di California, model XGBoost yang telah dioptimalkan menunjukkan kinerja terbaik dibandingkan dengan model lain. Dengan skor R² sebesar 0.78 setelah tuning hyperparameter, model ini mampu menangkap variasi dalam data dan memberikan prediksi yang akurat. Peningkatan dari skor R² 0.77 sebelum tuning menunjukkan bahwa proses optimasi ini penting untuk meningkatkan akurasi model.
 
