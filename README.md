@@ -1,4 +1,4 @@
-# **California Median House Price** : Linear Regression Model 
+# **California Median House Price** : Linear Regression Model
 
 By [Dito Wicaksana P.](https://github.com/ditoowp) | Data Resource: [Kaggle](https://www.kaggle.com/datasets/shibumohapatra/house-price/data)
 
@@ -26,7 +26,7 @@ Tujuan dari proyek ini adalah mengembangkan model prediksi yang dapat secara aku
 * Mengeksplorasi bagaimana perubahan dalam fitur tertentu mempengaruhi keterjangkauan dan ketersediaan perumahan.
 
 <p style="text-align: justify;">
-Tujuan utamanya adalah menawarkan <em>tools<em> yang dapat mendukung analisis <em>real estate</em> dan perencanaan strategis di sektor perumahan.
+Tujuan utamanya adalah menawarkan <em>tools</em> yang dapat mendukung analisis <em>real estate</em> dan perencanaan strategis di sektor perumahan.
 </p>
 
 ---
@@ -35,7 +35,7 @@ Tujuan utamanya adalah menawarkan <em>tools<em> yang dapat mendukung analisis <e
 
 ### **Exploratory Data Analysis (EDA)**
 
-Pilihan rumah yang ada cukup bervariasi, mulai dari usia rumahnya ada yang masih tergolong baru dan lama walaupun rata-rata rumah berusia 30-40 tahun. Mayoritas rumah yang dijual sepertinya rumah yang kecil, diketahui dari jumlah ruangan dan jumlah kamar tidurnya yang tidak terlalu banyak pada suatu blok. Selain itu, populasi yang banyak pada suatu blok maka akan mempengaruhi juga nilai median rumah. Ini terjadi dikarenakan tingkat populasi yang tinggi membuat *demand* yang tinggi terhadap *housing properties* dan apabila *demand*-nya tinggi maka akan semakin terbatas barang yang di-*demand* membuat harga menjadi naik (*). *Landscape* rumah juga mempengaruhi harga rumah, rumah yang termasuk dekat dengan pantai cenderung akan lebih mahal dibandingkan dengan harga rumah yang berada di-*inland*. 
+Pilihan rumah yang ada cukup bervariasi, mulai dari usia rumahnya ada yang masih tergolong baru dan lama walaupun rata-rata rumah berusia 30-40 tahun. Mayoritas rumah yang dijual sepertinya rumah yang kecil, diketahui dari jumlah ruangan dan jumlah kamar tidurnya yang tidak terlalu banyak pada suatu blok. Selain itu, populasi yang banyak pada suatu blok maka akan mempengaruhi juga nilai median rumah. Ini terjadi dikarenakan tingkat populasi yang tinggi membuat *demand* yang tinggi terhadap *housing properties* dan apabila *demand*-nya tinggi maka akan semakin terbatas barang yang di-*demand* membuat harga menjadi naik (*). *Landscape* rumah juga mempengaruhi harga rumah, rumah yang termasuk dekat dengan pantai cenderung akan lebih mahal dibandingkan dengan harga rumah yang berada di-*inland*.
 
 (*) Reference : [UNECE](https://unece.org/fileadmin/DAM/hlm/archive/Key%20note%20population%20and%20housing.pdf)
 
@@ -55,7 +55,7 @@ Performa yang lumayan baik namun menurun performanya dari *train* ke *test*. Men
 
 **Random Forest Regressor (RFR)**
 
-Performa yang cukup baik pada *train* dan *test*. **R2 Score** juga baik yang menandakan model dapat menangkap pola data dengan baik. 
+Performa yang cukup baik pada *train* dan *test*. **R2 Score** juga baik yang menandakan model dapat menangkap pola data dengan baik.
 
 **Extreme Gradient Boosting (XGBoost)**
 
