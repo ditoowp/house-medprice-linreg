@@ -32,6 +32,7 @@ Tujuan utamanya adalah menawarkan <em>tools<em> yang dapat mendukung analisis <e
 ---
 
 ## Conclusion
+
 ### Exploratory Data Analysis (EDA)
 
 Pilihan rumah yang ada cukup bervariasi, mulai dari usia rumahnya ada yang masih tergolong baru dan lama walaupun rata-rata rumah berusia 30-40 tahun. Mayoritas rumah yang dijual sepertinya rumah yang kecil, diketahui dari jumlah ruangan dan jumlah kamar tidurnya yang tidak terlalu banyak pada suatu blok. Selain itu, populasi yang banyak pada suatu blok maka akan mempengaruhi juga nilai median rumah. Ini terjadi dikarenakan tingkat populasi yang tinggi membuat *demand* yang tinggi terhadap *housing properties* dan apabila *demand*-nya tinggi maka akan semakin terbatas barang yang di-*demand* membuat harga menjadi naik (*). *Landscape* rumah juga mempengaruhi harga rumah, rumah yang termasuk dekat dengan pantai cenderung akan lebih mahal dibandingkan dengan harga rumah yang berada di-*inland*. 
