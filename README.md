@@ -2,7 +2,7 @@
 
 By [Dito Wicaksana P.](https://github.com/ditoowp) | Data Resource: [Kaggle](https://www.kaggle.com/datasets/shibumohapatra/house-price/data)
 
-<center><img src="https://imgtr.ee/images/2024/07/27/2688680e64de44d23c082a45db7887f7.jpeg"/></center>
+<center><img src="[https://imgtr.ee/images/2024/07/27/2688680e64de44d23c082a45db7887f7.jpeg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cato.org%2Fpolicy-analysis%2Fcommon-sense-policy-reforms-california-housing&psig=AOvVaw2-WpRRUPy1AtbKoadEcrCN&ust=1722607404129000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPjAsOz604cDFQAAAAAdAAAAABAE)"/></center>
 
 ---
 
